@@ -1,0 +1,20 @@
+﻿# deps
+node_modules/
+.pnpm-store/
+
+# env & secrets
+.env
+.env.*
+!.env.example
+
+# build output
+dist/
+build/
+.next/
+
+# editor & os
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
